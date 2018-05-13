@@ -27,10 +27,11 @@ void Doodlebug::breed(){
  addStep()
  *------------------------------------------------------------------*/
 void Doodlebug::addStep(){
+    this->steps++;
 }
 /*------------------------------------------------------------------*
  getStep()
  *------------------------------------------------------------------*/
 int Doodlebug::getStep(){
-    return 0; //dummy for testing
+    return steps; //dummy for testing
 }
